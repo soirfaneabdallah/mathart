@@ -1,0 +1,44 @@
+# MathArt — dépendances complètes
+# Installation : pip install -r requirements.txt
+# Python : >= 3.11
+#
+# Note PyTorch : la ligne ci-dessous installe la version CPU (recommandée
+# pour le bundle Windows). Pour la version GPU CUDA 12.1, remplace par :
+#   --extra-index-url https://download.pytorch.org/whl/cu121
+#   torch==2.2.1
+#   torchvision==0.17.1
+
+
+
+# --- Interface ---
+PySide6
+
+# --- Calcul scientifique ---
+numpy
+scipy
+matplotlib
+
+# --- Vision par ordinateur ---
+opencv-python
+pillow
+
+# --- Modèle de données ---
+pydantic
+
+# --- Rapports 
+jinja2
+weasyprint
+
+# --- Deep learning (mode Analyse) ---
+torch
+torchvision
+ultralytics
+
+# --- Outillage de éveloppement ---
+pytest
+pytest-qt
+pytest-cov
+ruff
+black
+mypy
+pyinstaller

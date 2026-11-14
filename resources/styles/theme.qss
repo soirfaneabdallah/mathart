@@ -1,0 +1,5 @@
+/* Thème sombre MathArt */
+QMainWindow, QWidget {
+  background-color: #12121c;
+  color: #e6e6f0;
+}

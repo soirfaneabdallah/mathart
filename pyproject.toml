@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "math-art-vision"
+version = "0.1.0"
+description = "Génération, analyse et rapports d'art mathématique par vision par ordinateur"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Abdallah Houmadi Soirfane" }]
+dependencies = [
+    "PySide6>=6.6",
+    "numpy>=1.26",
+    "opencv-python>=4.9",
+    "pydantic>=2.5",
+    "Jinja2>=3.1",
+    "WeasyPrint>=61",
+]
+
+[project.optional-dependencies]
+vision = ["torch", "ultralytics", "onnxruntime"]
+dev = ["pytest>=8", "pyinstaller>=6", "ruff", "mypy"]
+
+[tool.setuptools.packages.find]
+include = ["app*", "ui*", "core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
