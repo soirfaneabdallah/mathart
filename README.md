@@ -65,7 +65,7 @@ Tout fonctionne en local : aucun compte, aucun service en ligne, aucune télém�
 ### Depuis les sources
 
 ```powershell
-git clone https://github.com/<utilisateur>/MathArt.git
+git clone https://github.com/soirfaneabdallah/mathart
 cd MathArt
 
 python -m venv .venv
@@ -268,8 +268,7 @@ Distribué sous licence **MIT**. Voir le fichier [`LICENSE`](LICENSE).
 
 ## Remerciements
 
-- Les amis artistes qui participent au projet : leurs retours guident les choix visuels et sonores.
+
 - Les travaux de Benoît Mandelbrot, Edward Lorenz et Jules Lissajous, ainsi que la littérature sur les descripteurs de Fourier elliptiques.
 - Les projets open source utilisés : Qt for Python, NumPy, SciPy, OpenCV, PyTorch, Pydantic, Jinja2, WeasyPrint et Matplotlib.
 
-Projet personnel d'Abdallah, titulaire d'un Master en Mathématiques Appliquées, spécialisé en IA et vision par ordinateur.
