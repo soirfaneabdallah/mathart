@@ -65,7 +65,7 @@ Tout fonctionne en local : aucun compte, aucun service en ligne, aucune télém�
 ### Depuis les sources
 
 ```powershell
-git clone https://github.com/soirfaneabdallah/mathart
+git clone https://github.com/soirfaneabdallah/mathart.git
 cd MathArt
 
 python -m venv .venv
